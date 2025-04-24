@@ -1,0 +1,106 @@
+Skip to main content
+CU-LMS
+Home
+Dashboard
+My courses
+7
+Edit mode
+ 
+
+Experiment-3.3
+CONT_22CSH-380 :: DATA MINING AND WAREHOUSING
+Experiment-3.3
+Experiment-3.3
+Completion requirements
+
+
+Mapping of Course Outcome with the Experiment 3.3
+CO3: Apply association rule, classification, and clustering algorithms for large data sets.
+CO4: Evaluate and employ correct data mining techniques depending on characteristics of the dataset.
+CO5: Verify and formulate the performance of various data mining techniques according to the dataset.
+ 
+
+Experiment 3.3
+ AIM OF THE EXPERIMENT: Write a procedure for clustering weather data using EM algorithm.
+
+ Description:
+
+ Clustering and EM algorithm:
+
+Clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters). It is a main task of exploratory data mining, and a common technique for statistical data analysis, used in many fields, including pattern recognition, image analysis, information retrieval, bioinformatics, data compression, computer graphics and machine learning.
+
+The Expectation-Maximization (EM) algorithm is an iterative optimization method that combines different unsupervised machine learning algorithms to find maximum likelihood or maximum posterior estimates of parameters in statistical models that involve unobserved latent variables. The EM algorithm is commonly used for latent variable models and can handle missing data. It consists of an estimation step (E-step) and a maximization step (M-step), forming an iterative process to improve model fit.
+
+In the E step, the algorithm computes the latent variables i.e. expectation of the log-likelihood using the current parameter estimates. 
+In the M step, the algorithm determines the parameters that maximize the expected log-likelihood obtained in the E step, and corresponding model parameters are updated based on the estimated latent variables. 
+Creation of Weather Table:
+Procedure:
+
+Open Start → Programs → Accessories → Notepad
+Type the following training data set with the help of Notepad for Weather Table. 
+@relation weather
+@attribute outlook {sunny, rainy, overcast} @attribute temperature numeric
+@attribute humidity numeric @attribute windy {TRUE, FALSE} @attribute play {yes, no}
+@data sunny,85,85,FALSE,no sunny,80,90,TRUE,no overcast,83,86,FALSE,yes rainy,70,96,FALSE,yes rainy,68,80,FALSE,yes rainy,65,70,TRUE,no overcast,64,65,TRUE,yes sunny,72,95,FALSE,no sunny,69,70,FALSE,yes rainy,75,80,FALSE,yes sunny,75,70,TRUE,yes overcast,72,90,TRUE,yes overcast,81,75,FALSE,yes rainy,71,91,TRUE,no
+After that the file is saved with .arff file format.
+Minimize the arff file and then open Start → Programs → weka-3-4.
+Click on weka-3-4, then Weka dialog box is displayed on the screen.
+In that dialog box there are four modes, click on explorer.
+Explorer shows many options. In that click on ‘open file’ and select the arff file
+Click on edit button which shows weather table on weka.
+
+ EXPECTED OUTPUT
+
+ Training Data Set → Weather Table
+
+
+
+Procedure for Decision Trees:
+
+Open Start → Programs → Weka-3-4 → Weka-3-4
+Open explorer.
+Click on open file and select weather.arff
+Select Cluster option on the top of the Menu bar.
+Select Choose button.
+Click on EM algorithm.
+Click on Start button and output will be displayed on the right side of the window
+EXPECTED OUTPUT
+
+
+
+
+
+Learning Outcomes:
+
+Learnt about concepts and steps involved in the Expectation-Maximization (EM) algorithm for clustering
+Learnt about ability to work with probabilistic assignments of data points to clusters
+Learnt about optimization techniques
+Learnt about evaluating clustering results using metrics like log-likelihood
+VIDEO LINK:
+
+
+
+ OTHER RESOURCE MATERIAL/WEB LINKS:
+
+https://www.javatpoint.com/weka-data-mining
+https://www.tutorialspoint.com/weka/weka_clustering.htm
+https://www.tutorialspoint.com/weka/weka_quick_guide.htm
+REFERENCE BOOK:
+
+Bhatia P. Data mining and data warehousing: principles and practical techniques. Cambridge University Press; 2019 Jun 27.
+
+ 
+
+
+
+
+
+Last modified: Sunday, 12 January 2025, 8:40 PM
+Previous activity
+Jump to...
+Jump to...
+Contact us
+ 
+Follow us
+    
+You are logged in as Sanchit Wadehra . (Log out)

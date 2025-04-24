@@ -1,0 +1,110 @@
+Skip to main content
+CU-LMS
+Home
+Dashboard
+My courses
+7
+Edit mode
+ 
+
+Experiment-2.2
+CONT_22CSH-380 :: DATA MINING AND WAREHOUSING
+Experiment-2.2
+Experiment-2.2
+Completion requirements
+Mapping of Course Outcome with the Experiment 2.2
+
+CO3: Apply association rule, classification, and clustering algorithms for large data sets. 
+CO4: Evaluate and employ correct data mining techniques depending on characteristics of the dataset.
+Experiment 2.2
+
+
+AIM OF THE EXPERIMENT: To Construct Decision Tree for Weather data and classify it. 
+
+Description:
+ Classification & Prediction:
+
+Classification is the process for finding a model that describes the data values and concepts for the purpose of Prediction.
+
+ Decision Tree:
+
+A decision Tree is a classification scheme to generate a tree consisting of root node, internal nodes and external nodes. Root nodes representing the attributes. Internal nodes are also the attributes. External nodes are the classes and each branch represents the values of the attributes. Decision Tree also contains set of rules for a given data set; there are two subsets in Decision Tree. One is a Training data set and second one is a Testing data set. Training data set is previously classified data. Testing data set is newly generated data.
+
+ Creation of Weather Table:
+
+ Procedure:
+
+Open Start → Programs → Accessories → Notepad
+Type the following training data set with the help of Notepad for Weather Table @relation weather 
+@attribute outlook {sunny, rainy, overcast}
+
+@attribute temperature numeric
+@attribute humidity numeric
+@attribute windy {TRUE, FALSE}
+@attribute play {yes, no}
+@data sunny,85,85,FALSE,no sunny,80,90,TRUE,no overcast,83,86,FALSE,yes rainy,70,96,FALSE,yes rainy,68,80,FALSE,yes rainy,65,70,TRUE,no overcast,64,65,TRUE,yes sunny,72,95,FALSE,no sunny,69,70,FALSE,yes rainy,75,80,FALSE,yes sunny,75,70,TRUE,yes overcast,72,90,TRUE,yes overcast,81,75,FALSE,yes, rainy,71,91,TRUE,no                
+After that the file is saved with .arff file format.
+Click on weka-3-4, then Weka dialog box is displayed on the screen.
+In that dialog box there are four modes, click on explorer.
+Explorer shows many options. In that click on ‘open file’ and select the arff file
+Click on edit button which shows weather table on weka.
+EXPECTED OUTPUT:
+Training Data Set → Weather Table
+
+
+
+Procedure for Decision Trees:
+
+Open Start → Programs → Weka-3-4 → Weka-3-4
+Open explorer.
+Click on open file and select weather.arff
+Select Classifier option on the top of the Menu bar.
+Select Choose button and click on Tree option.
+Click on J48.
+Click on Start button and output will be displayed on the right side of the window
+Select the result list and right click on result list and select Visualize Tree option.
+Then Decision Tree will be displayed on new window.
+EXPECTED OUTPUT:
+
+
+
+Decision Tree:
+
+
+
+
+Learning Outcomes:
+
+Learnt about data classification
+Learnt about structure and functionality of decision trees in classifying weather data
+Learnt about different data visualization techniques
+Learnt about measures of data splitting such as information gain and Gini Index
+Developed the ability to analyze decision paths and interpret classification results
+VIDEO LINK:
+
+
+
+OTHER RESOURCE MATERIAL/WEB LINKS:
+
+https://www.tutorialspoint.com/weka/weka_quick_guide.htm
+https://www.javatpoint.com/weka-data-mining ;
+https://medium.com/@kaungpyae.kp27/weather-prediction-with-decision-tree-classification-299287ef3ca9
+REFERENCE BOOK:
+
+Bhatia P. Data mining and data warehousing: principles and practical techniques. Cambridge University Press; 2019 Jun 27.
+
+
+
+
+
+
+Last modified: Sunday, 12 January 2025, 8:32 PM
+Previous activity
+Jump to...
+Jump to...
+Next activity
+Contact us
+ 
+Follow us
+    
+You are logged in as Sanchit Wadehra . (Log out)

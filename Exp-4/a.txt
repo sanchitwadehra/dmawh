@@ -1,0 +1,98 @@
+Skip to main content
+CU-LMS
+Home
+Dashboard
+My courses
+7
+Edit mode
+ 
+
+Experiment-2.1
+CONT_22CSH-380 :: DATA MINING AND WAREHOUSING
+Unit-2 (Practical)
+Experiment-2.1
+Completion requirements
+Mapping of Course Outcome with Experiment 2.1
+
+CO2: Demonstrate the strengths and weaknesses of different methods of meaningful data mining.
+
+Experiment 2.1
+
+
+AIM OF THE EXPERIMENT: Finding Association Rules for Buying data.
+
+Description:
+In data mining, association rule learning is a popular and well researched method for discovering interesting relations between variables in large databases. It can be described as analyzing and presenting strong rules discovered in databases using different measures of interestingness. In market basket analysis association rules are used and they are also employed in many application areas including Web usage mining, intrusion detection and bioinformatics.
+
+Creation of Buying Table:
+Procedure:
+Open Start → Programs → Accessories → Notepad
+Type the following training data set with the help of Notepad for Buying Table.
+@relation buying
+@attribute age {L20,20-40,G40} @attribute income {high,medium,low} @attribute stud {yes,no}
+@attribute creditrate {fair,excellent} @attribute buyscomp {yes,no} @data
+L20,high,no,fair,yes 20-40,low,yes,fair,yes
+G40,medium,yes,fair,yes L20,low,no,fair,no G40,high,no,excellent,yes L20,low,yes,fair,yes
+20-40,high,yes,excellent,no G40,low,no,fair,yes L20,high,yes,excellent,yes G40,high,no,fair,yes L20,low,yes,excellent,no G40,high,yes,excellent,no
+20-40,medium,yes,excellent,yes L20,medium,yes,fair,yes G40,high,yes,excellent,yes
+After that the file is saved with .arff file format.
+Minimize the arff file and then open Start → Programs → weka-3-4.
+Click on weka-3-4, then Weka dialog box is displayed on thescreen.
+In that dialog box there are four modes, click on explorer.
+Explorer shows many options. In that click on ‘open file’ and select the arff file
+Click on edit button which shows buying table on weka.
+EXPECTED OUTPUT:
+Training Data Set → Buying Table
+
+
+
+Procedure for Association Rules:
+
+Open Start → Programs → Weka-3-4 → Weka-3-4
+Open explorer.
+Click on open file and select buying.arff
+Select Associate option on the top of the Menu bar.
+Select Choose button and then click on Apriori Algorithm
+Click on Start button and output will be displayed on the right side of the window.
+EXPECTED OUTPUT:
+
+
+
+Learning Outcomes:
+
+Learnt about discovering relationship between variables
+Learnt about formats of association rules and learning
+Gained practical experience of applying the Apriori algorithm to generate association rules.
+Understood key metrics like support, confidence, and lift to evaluate association rules.
+
+VIDEO LINK:
+
+
+
+OTHER RESOURCE MATERIAL/WEB LINKS:
+
+https://www.tutorialspoint.com/weka/weka_quick_guide.htm
+https://www.javatpoint.com/weka-data-mining ;
+https://machinelearningmastery.com/market-basket-analysis-with-association-rule-learning/
+REFERENCE BOOK:
+
+Bhatia P. Data mining and data warehousing: principles and practical techniques. Cambridge University Press; 2019 Jun 27.
+
+ 
+
+
+
+
+
+
+
+Last modified: Sunday, 12 January 2025, 8:31 PM
+Previous activity
+Jump to...
+Jump to...
+Next activity
+Contact us
+ 
+Follow us
+    
+You are logged in as Sanchit Wadehra . (Log out)

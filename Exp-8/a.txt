@@ -1,0 +1,98 @@
+Skip to main content
+CU-LMS
+Home
+Dashboard
+My courses
+7
+Edit mode
+ 
+
+Experiment-3.1
+CONT_22CSH-380 :: DATA MINING AND WAREHOUSING
+Unit-3 (Practical)
+Experiment-3.1
+Completion requirements
+
+
+Mapping of Course Outcome with the Experiment 3.1
+CO3: Apply association rule, classification, and clustering algorithms for large data sets.
+CO4: Evaluate and employ correct data mining techniques depending on characteristics of the dataset.
+ Experiment 3.1
+AIM OF THE EXPERIMENT: Write a procedure for k-means Clustering algorithm using weather data set.
+
+Description:
+
+Clustering
+
+Clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters). It is a main task of exploratory data mining, and a common technique for statistical data analysis, used in many fields, including pattern recognition, image analysis, information retrieval, bioinformatics, data compression, computer graphics and machine learning. 
+
+K-means Clustering
+k-means algorithm can be used to partition the input data set into k partitions (clusters). k-means clustering is a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster.
+
+Creation of Weather Table:
+ Procedure:
+
+Open Start → Programs → Accessories → Notepad
+Type the following training data set with the help of Notepad for Weather Table. 
+@relation weather
+@attribute outlook {sunny, rainy, overcast} @attribute temperature numeric
+@attribute humidity numeric 
+@attribute windy {TRUE, FALSE} 
+@attribute play {yes, no}
+@data sunny,85,85,FALSE,no sunny,80,90,TRUE,no overcast,83,86,FALSE,yes rainy,70,96,FALSE,yes rainy,68,80,FALSE,yes rainy,65,70,TRUE,no overcast,64,65,TRUE,yes sunny,72,95,FALSE,no sunny,69,70,FALSE,yes rainy,75,80,FALSE,yes sunny,75,70,TRUE,yes overcast,72,90,TRUE,yes overcast,81,75,FALSE,yes rainy,71,91,TRUE,no
+After that the file is saved with .arff file format.
+Minimize the arff file and then open Start → Programs → weka-3-4.
+Click on weka-3-4, then Weka dialog box is displayed on the screen.
+In that dialog box there are four modes, click on explorer.
+Explorer shows many options. In that click on ‘open file’ and select the arff file
+Click on edit button which shows weather table on weka.
+EXPECTED OUTPUT:
+
+ Training Data Set → Weather Table
+
+
+
+
+
+Procedure for Decision Trees:
+
+Open Start → Programs → Weka-3-4 → Weka-3-4
+Open explorer.
+Click on open file and select weather.arff
+Select Cluster option on the top of the Menu bar.
+Select Choose button.
+click on SimpleKMeans.
+Click on Start button and output will be displayed on the right side of the window.
+EXPECTED OUTPUT:
+
+
+Learning Outcomes:
+
+Learnt about fundamentals of unsupervised learning that is, Clustering techniques
+Learnt about exploratory data mining
+Learnt about implementation of k-means clustering
+Developed skills to analyze and interpret cluster centroids and their attributes
+VIDEO LINK:
+
+
+
+OTHER RESOURCE MATERIAL/WEB LINKS:
+
+https://www.javatpoint.com/weka-data-mining
+https://www.javatpoint.com/k-means-clustering-algorithm-in-machine-learning
+https://www.tutorialspoint.com/weka/weka_quick_guide.htm
+REFERENCE BOOK:
+
+Bhatia P. Data mining and data warehousing: principles and practical techniques. Cambridge University Press; 2019 Jun 27.
+
+
+Last modified: Sunday, 12 January 2025, 8:36 PM
+Previous activity
+Jump to...
+Jump to...
+Next activity
+Contact us
+ 
+Follow us
+    
+You are logged in as Sanchit Wadehra . (Log out)

@@ -1,0 +1,161 @@
+Skip to main content
+CU-LMS
+Home
+Dashboard
+My courses
+7
+Edit mode
+ 
+
+Experiment-1.2
+CONT_22CSH-380 :: DATA MINING AND WAREHOUSING
+Experiment-1.2
+Experiment-1.2
+Completion requirements
+
+
+Mapping of Course Outcome with the Experiment 1.2
+CO3: Apply association rule, classification, and clustering algorithms for large data sets.
+
+
+
+
+Experiment 1.2
+
+AIM OF THE EXPERIMENT: Apply Pre-Processing techniques to the training data set of Weather Table.
+
+Description:
+
+Real world databases are highly influenced to noise, missing and inconsistency due to their queue size so the data can be pre-processed to improve the quality of data and missing results and it also improves the efficiency.
+
+There are 3 pre-processing techniques they are:
+
+Add
+Remove
+Normalization
+Creation of Weather Table:
+Procedure: 
+
+Open Start → Programs → Accessories → Notepad
+Type the following training data set with the help of Notepad for Weather Table.
+@relation weather
+@attribute outlook {sunny,rainy,overcast} @attribute temparature numeric @attribute humidity numeric
+@attribute windy {true,false} @attribute play {yes,no}
+@data sunny,85.0,85.0,false,no overcast,80.0,90.0,true,no sunny,83.0,86.0,false,yes rainy,70.0,86.0,false,yes rainy,68.0,80.0,false,yes rainy,65.0,70.0,true,no overcast,64.0,65.0,false,yes sunny,72.0,95.0,true,no sunny,69.0,70.0,false,yes rainy,75.0,80.0,false,yes
+After that the file is saved with .arff file format.
+Minimize the arff file and then open Start → Programs → weka-3-4.
+Click on weka-3-4, then Weka dialog box is displayed on thescreen.
+In that dialog box there are four modes, click on explorer.
+Explorer shows many options. In that click on ‘open file’ and select the arff file
+Click on edit button which shows weather table on weka.
+EXPECTED OUTPUT:
+
+
+
+
+ Add → Pre-Processing Technique:
+
+Procedure:
+
+Start → Programs → Weka-3-4 → Weka-3-4
+Click on explorer.
+Click on open file.
+Select Weather.arff file and click on open.
+Click on Choose button and select the Filters option.
+In Filters, we have Supervised and Unsupervised data.
+Click on Unsupervised data.
+Select the attribute Add.
+A new window is opened.
+In that we enter attribute index, type, data format, nominal label values for Climate.
+Click on OK.
+Press the Apply button, then a new attribute is added to the Weather Table.
+Save the file.
+Click on the Edit button, it shows a new Weather Table on Weka.
+
+EXPECTED OUTPUT:
+
+ Weather Table after adding new attribute CLIMATE:
+
+
+
+
+Remove → Pre-Processing Technique:
+
+Procedure:
+
+Start → Programs → Weka-3-4 → Weka-3-4
+Click on explorer.
+Click on open file.
+Select Weather.arff file and click on open.
+Click on Choose button and select the Filters option.
+In Filters, we have Supervised and Unsupervised data
+Click on Unsupervised data.
+Select the attribute Remove.
+Select the attributes windy, play to Remove.
+Click Remove button and then Save.
+Click on the Edit button, it shows a new Weather Table on Weka.
+
+EXPECTED OUTPUT:
+
+
+Weather Table after removing attributes WINDY, PLAY:
+ 
+
+ 
+
+
+
+
+Normalize → Pre-Processing Technique:
+
+Procedure:
+
+Start → Programs → Weka-3-4 → Weka-3-4
+Click on explorer.
+Click on open file.
+Select Weather.arff file and click on open.
+Click on Choose button and select the Filters option.
+In Filters, we have Supervised and Unsupervised data.
+Click on Unsupervised data.
+Select the attribute Normalize.
+Select the attributes temparature, humidity to Normalize.
+Click on Apply button and then Save.
+Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
+
+EXPECTED OUTPUT:
+
+Weather Table after Normalizing TEMPARATURE, HUMIDITY:
+
+
+
+
+Learning Outcomes:
+
+Learnt to create own datasets in WEKA
+Learnt to use WEKA for data pre-processing tasks
+Learnt how to implement different pre-processing techniques such as add, remove, and normalize in WEKA
+VIDEO LINK:
+
+
+
+OTHER RESOURCE MATERIAL/WEB LINKS:
+
+https://www.javatpoint.com/weka-data-mining
+https://www.tutorialspoint.com/weka/weka_quick_guide.htm
+REFERENCE BOOK:
+
+Bhatia P. Data mining and data warehousing: principles and practical techniques. Cambridge University Press; 2019 Jun 27.
+
+
+
+
+Last modified: Sunday, 12 January 2025, 8:29 PM
+Previous activity
+Jump to...
+Jump to...
+Next activity
+Contact us
+ 
+Follow us
+    
+You are logged in as Sanchit Wadehra . (Log out)

@@ -1,0 +1,122 @@
+Skip to main content
+CU-LMS
+Home
+Dashboard
+My courses
+7
+Edit mode
+ 
+
+Experiment-2.3
+CONT_22CSH-380 :: DATA MINING AND WAREHOUSING
+Experiment-2.3
+Experiment-2.3
+Completion requirements
+Mapping of Course Outcome with Experiment 2.3
+
+CO2: Demonstrate the strengths and weaknesses of different methods of meaningful data mining.
+
+Experiment 2.3
+AIM OF THE EXPERIMENT: Write a procedure for Visualization for Weather Table.
+
+Description:
+
+This program calculates and has comparisons on the data set selection of attributes and methods of manipulations have been chosen. The Visualization can be shown in a 2-D representation of the information.
+
+Creation of Weather Table:
+
+Procedure:
+
+Open Start → Programs → Accessories → Notepad
+Type the following training data set with the help of Notepad for Weather Table. 
+@relation weather
+@attribute outlook {sunny, rainy, overcast} 
+@attribute temperature numeric
+@attribute humidity numeric 
+@attribute windy {TRUE, FALSE} 
+@attribute play {yes, no}
+@data sunny,85,85,FALSE,no sunny,80,90,TRUE,no overcast,83,86,FALSE,yes rainy,70,96,FALSE,yes rainy,68,80,FALSE,yes rainy,65,70,TRUE,no overcast,64,65,TRUE,yes sunny,72,95,FALSE,no sunny,69,70,FALSE,yes rainy,75,80,FALSE,yes sunny,75,70,TRUE,yes overcast,72,90,TRUE,yes overcast,81,75,FALSE,yes rainy,71,91,TRUE,no
+After that the file is saved with .arff file format.
+Minimize the arff file and then open Start → Programs → weka-3-4.
+Click on weka-3-4, then Weka dialog box is displayed on thescreen.
+In that dialog box there are four modes, click on explorer.
+Explorer shows many options. In that click on ‘open file’ and select the arff file
+Click on edit button which shows weather table on weka.
+EXPECTED OUTPUT:
+Training Data Set → Weather Table
+
+
+2D PLOT MATRIX:
+
+
+
+
+Procedure:
+
+Open Start → Programs → Weka-3-4 → Weka-3-4
+Open the explorer and click on Preprocess, then a new window will appear. In that window select weather.arff file then the data will be displayed.
+After that click on the Visualize tab on the top of the Menu bar.
+When we select Visualize tab then Plot Matrix is displayed on the screen.
+After that we select the Select Attribute button, then select Outlook attribute and clock OK.
+Click on the Update button to display the output.
+After that select the Select Attribute button and select Temperature attribute and then click OK.
+Increase the Plot Size and Point Size.
+Click on the Update button to display the output.
+After that we select the Select Attribute button, then select Humidity attribute and clock OK.
+Click on the Update button to display the output.
+After that select the Select Attribute button and select Windy attribute and then click OK. 
+Increase the jitter size
+Click on the Update button to display the output.
+After that we select the Select Attribute button, then select Play attribute and clock OK.
+Click on the Update button to display the output
+EXPECTED OUTPUT:
+
+
+
+
+
+
+
+
+
+
+Learning Outcomes:
+
+Learnt about data visualization techniques
+Gained hands-on experience with WEKA's visualization features for attribute plots and histograms
+Learnt about different functionalities of different visualization plots
+Learnt to visually analyze relationships between weather attributes and target variables
+VIDEO LINK:
+
+
+
+OTHER RESOURCE MATERIAL/WEB LINKS:
+
+https://www.tutorialspoint.com/weka/weka_quick_guide.htm
+https://www.javatpoint.com/weka-data-mining ;
+https://cobweb.cs.uga.edu/~khaled/DMcourse/Weka-Tutorial-Exercises.pdf
+REFERENCE BOOK:
+
+Bhatia P. Data mining and data warehousing: principles and practical techniques. Cambridge University Press; 2019 Jun 27.
+
+
+
+
+
+
+
+
+
+
+
+
+Last modified: Sunday, 12 January 2025, 8:34 PM
+Previous activity
+Jump to...
+Jump to...
+Next activity
+Contact us
+ 
+Follow us
+    
+You are logged in as Sanchit Wadehra . (Log out)

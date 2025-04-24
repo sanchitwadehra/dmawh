@@ -1,0 +1,104 @@
+Skip to main content
+CU-LMS
+Home
+Dashboard
+My courses
+7
+Edit mode
+ 
+
+Experiment-2.4
+CONT_22CSH-380 :: DATA MINING AND WAREHOUSING
+Experiment-2.4
+Experiment-2.4
+Completion requirements
+
+
+Mapping of Course Outcome with Experiment 2.4
+CO2: Demonstrate the strengths and weaknesses of different methods of meaningful data mining.
+
+
+Experiment 2.4
+ 
+AIM OF THE EXPERIMENT: Write a procedure for cross-validation using J48 Algorithm for weather table.
+ 
+
+Description:
+Cross-validation, sometimes called rotation estimation, is a technique for assessing how the results of a statistical analysis will generalize to an independent data set. It is mainly used in settings where the goal is prediction, and one wants to estimate how accurately a predictive model will perform in practice. One round of cross-validation involves partitioning a sample of data into complementary subsets, performing the analysis on one subset (called the training set), and validating the analysis on the other subset (called the validation set or testing set).
+
+ Creation of Weather Table:
+
+ Procedure: 
+
+Open Start → Programs → Accessories → Notepad
+Type the following training data set with the help of Notepad for Weather Table. 
+@relation weather
+@attribute outlook {sunny, rainy, overcast} @attribute temperature numeric
+@attribute humidity numeric @attribute windy {TRUE, FALSE} @attribute play {yes, no}
+@data sunny,85,85,FALSE,no sunny,80,90,TRUE,no overcast,83,86,FALSE,yes rainy,70,96,FALSE,yes rainy,68,80,FALSE,yes rainy,65,70,TRUE,no overcast,64,65,TRUE,yes sunny,72,95,FALSE,no sunny,69,70,FALSE,yes rainy,75,80,FALSE,yes sunny,75,70,TRUE,yes overcast,72,90,TRUE,yes overcast,81,75,FALSE,yes rainy,71,91,TRUE,no
+After that the file is saved with .arff file format.
+Minimize the arff file and then open Start → Programs → weka-3-4.
+Click on weka-3-4, then Weka dialog box is displayed on thescreen.
+In that dialog box there are four modes, click on explorer.
+Explorer shows many options. In that click on ‘open file’ and select the arff file
+Click on edit button which shows weather table on weka.
+ EXPECTED OUTPUT:
+
+Training Data Set → Weather Table
+
+
+Procedure:
+
+Start -> Programs -> Weka 3.4
+Open Knowledge Flow.
+Select Data Source tab & choose Arff Loader.
+Place Arff Loader component on the layout area by clicking on that component.
+Specify an Arff file to load by right clicking on Arff Loader icon, and then a pop-up menu will appear. In that select Configure & browse to the location of weather.arff
+Click on the Evaluation tab & choose Class Assigner & place it on the layout.
+Now connect the Arff Loader to the Class Assigner by right clicking on Arff Loader, and then select Data Set option, now a link will be established.
+Right click on Class Assigner & choose Configure option, and then a new window will appear & specify a class to our data.
+Select Evaluation tab & select Cross-Validation Fold Maker & place it on the layout.
+Now connect the Class Assigner to the Cross-Validation Fold Maker.
+Select Classifiers tab & select J48 component & place it on the layout.
+Now connect Cross-Validation Fold Maker to J48 twice; first choose Training Data Set option and then Test Data Set option.
+Select Evaluation Tab & select Classifier Performance Evaluator component & place it on the layout.
+Connect J48 to Classifier Performance Evaluator component by right clicking on J48 & selecting Batch Classifier.
+Select Visualization tab & select Text Viewer component & place it on the layout.
+Connect Text Viewer to Classifier Performance Evaluator by right clicking on Text Viewer & by selecting Text option.
+Start the flow of execution by selecting Start Loading from Arff Loader.
+For viewing result, right click on Text Viewer & select the Show Results, and then the result will be displayed on the new window.
+EXPECTED OUTPUT:
+
+
+
+
+Learning Outcomes:
+
+Learnt about different methods of cross-validation
+Learnt about evaluation of machine learning models
+Understood how splitting data into folds reduces overfitting and improves generalization.
+Learnt to analyze results like accuracy, and confusion matrices from cross-validation.
+VIDEO LINK:
+
+
+
+OTHER RESOURCE MATERIAL/WEB LINKS:
+
+https://www.javatpoint.com/weka-data-mining 
+https://www.geeksforgeeks.org/building-a-machine-learning-model-using-j48-classifier/
+https://www.tutorialspoint.com/weka/weka_quick_guide.htm
+ REFERENCE BOOK:
+
+Bhatia P. Data mining and data warehousing: principles and practical techniques. Cambridge University Press; 2019 Jun 27.
+
+
+Last modified: Sunday, 12 January 2025, 8:35 PM
+Previous activity
+Jump to...
+Jump to...
+Next activity
+Contact us
+ 
+Follow us
+    
+You are logged in as Sanchit Wadehra . (Log out)

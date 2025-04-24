@@ -1,0 +1,87 @@
+Skip to main content
+CU-LMS
+Home
+Dashboard
+My courses
+7
+Edit mode
+ 
+
+Experiment-1.1
+CONT_22CSH-380 :: DATA MINING AND WAREHOUSING
+Unit-1 (Practical)
+Experiment-1.1
+Completion requirements
+Mapping of Course Outcome with the Experiment 1.1
+
+CO1: Understand the concept of Data mining and usage of various tools for data warehousing and data mining.
+
+
+
+
+Experiment 1.1
+
+
+AIM OF EXPERIMENT: Explore data mining tool “WEKA”. Create an employee table using WEKA
+
+Description:
+
+We need to create an Employee Table with training data set which includes following attributes:
+
+name
+id
+salary
+experience
+gender
+phone number
+Procedure: 
+
+Open Start -> Programs -> Accessories -> Notepad
+Type the following training data set with the help of Notepad for Employee Table 
+@relation employee
+@attribute name {x,y,z,a,b}
+@attribute id numeric
+@attribute salary {low,medium,high}
+@attribute exp numeric
+@attribute gender {male,female}
+@attribute phone numeric
+@data x,101,low,2,male,250311 y,102,high,3,female,251665 z,103,medium,1,male,240238 a,104,low,5,female,200200 b,105,high,2,male,240240     
+After that the file is saved with .arff file format.
+Minimize the arff file and then open Start -> Programs -> weka-3-4.
+Click on weka-3-4, then Weka dialog box is displayed on the screen.
+In that dialog box there are four modes, click on explorer.
+Explorer shows many options. In that click on ‘open file’ and select the arff file
+Click on edit button which shows employee table on weka.
+An example is given below for weather data. Created employee table should look like the reference example.
+
+Expected Output: 
+
+
+Learning Outcomes:
+
+Explored the functionalities of data mining tool “WEKA”
+Learnt about various components and features of WEKA
+Learnt how to extract and use built-in-datasets of WEKA
+Learnt to create own datasets
+VIDEO LINK:
+
+
+
+OTHER RESOURCE MATERIAL/WEB LINKS:
+
+https://www.javatpoint.com/weka-data-mining  ;
+https://www.tutorialspoint.com/weka/weka_quick_guide.htm
+REFERENCE BOOK:
+
+Bhatia P. Data mining and data warehousing: principles and practical techniques. Cambridge University Press; 2019 Jun 27.
+
+Last modified: Sunday, 12 January 2025, 8:27 PM
+Previous activity
+Jump to...
+Jump to...
+Next activity
+Contact us
+ 
+Follow us
+    
+You are logged in as Sanchit Wadehra . (Log out)

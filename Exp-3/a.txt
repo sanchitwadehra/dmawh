@@ -1,0 +1,106 @@
+Skip to main content
+CU-LMS
+Home
+Dashboard
+My courses
+7
+Edit mode
+ 
+
+Experiment-1.3
+CONT_22CSH-380 :: DATA MINING AND WAREHOUSING
+Experiment-1.3
+Experiment-1.3
+Completion requirements
+
+
+Mapping of Course Outcome with Experiment 1.3
+
+CO2: Demonstrate the strengths and weaknesses of different methods of meaningful data mining.
+
+
+Experiment 1.3
+
+
+AIM OF THE EXPERIMENT: Normalize Weather Table data using Knowledge Flow.
+
+Description:
+The knowledge flow provides an alternative way to the explorer as a graphical front end to WEKA’s algorithm. Knowledge flow is a working progress. So, some of the functionality from explorer is not yet available. So, on the other hand there are the things that can be done in knowledge flow, but not in explorer. Knowledge flow presents a dataflow interface to WEKA. The user can select WEKA components from a toolbar placed them on a layout campus and connect them together in order to form a knowledge flow for processing and analyzing the data.
+ 
+
+Creation of Weather Table:
+ 
+
+Procedure:
+
+Open Start → Programs → Accessories → Notepad
+Type the following training data set with the help of Notepad for Weather Table. 
+@relation weather
+@attribute outlook {sunny,rainy,overcast}
+@attribute temparature numeric @attribute humidity numeric
+@attribute windy {true,false} @attribute play {yes,no}
+@data sunny,85.0,85.0,false,no overcast,80.0,90.0,true,no sunny,83.0,86.0,false,yes rainy,70.0,86.0,false,yes rainy,68.0,80.0,false,yes rainy,65.0,70.0,true,no overcast,64.0,65.0,false,yes sunny,72.0,95.0,true,no sunny,69.0,70.0,false,yes rainy,75.0,80.0,false,yes
+After that the file is saved with .arff file format.
+Minimize the arff file and then open Start → Programs → weka-3-4.
+Click on weka-3-4, then Weka dialog box is displayed on thescreen.
+In that dialog box there are four modes, click on explorer.
+Explorer shows many options. In that click on ‘open file’ and select the arff file
+Click on edit button which shows Weather table on weka.
+EXPECTED OUTPUT:
+
+Procedure for Knowledge Flow:
+
+Open Start → Programs → Weka-3-4 → Weka-3-4
+Open the Knowledge Flow.
+Select the Data Source component and add Arff Loader into the knowledge layout canvas.
+Select the Filters component and add Attribute Selection and Normalize into the knowledge layout canvas.
+Select the Data Sinks component and add Arff Saver into the knowledge layout canvas.
+Right click on Arff Loader and select Configure option then the new window will be opened and select Weather.arff
+Right click on Arff Loader and select Dataset option then establish a link between Arff Loader and Attribute Selection.
+Right click on Attribute Selection and select Dataset option then establish a link between Attribute Selection and Normalize.
+Right click on Attribute Selection and select Configure option and choose the best attribute for Weather data.
+Right click on Normalize and select Dataset option then establish a link between Normalize and Arff  Saver.
+Right click on Arff Saver and select Configure option then new window will be opened and set the path, enter.arff in look in dialog box to save normalize data.
+Right click on Arff Loader and click on Start Loading option then everything will be executed one by one.
+Check whether output is created or not by selecting the preferred path.
+Rename the data name as a.arff
+Double click on a.arff then automatically the output will be opened in MS-Excel.
+EXPECTED OUTPUT:
+
+
+
+
+
+Learning Outcomes:
+
+Learnt about knowledge flow environment
+Learnt how to normalize the dataset using WEKA's Knowledge Flow interface
+Learnt to design and execute data preprocessing workflows visually using connected components.
+VIDEO LINK:
+
+
+
+
+
+OTHER RESOURCE MATERIAL/WEB LINKS:
+
+https://www.javatpoint.com/weka-data-mining
+https://www.slideshare.net/slideshow/weka-the-knowledge-flow-interface/3067546
+https://www.tutorialspoint.com/weka/weka_quick_guide.htm 
+REFERENCE BOOK:
+
+Bhatia P. Data mining and data warehousing: principles and practical techniques. Cambridge University Press; 2019 Jun 27.
+
+
+
+
+Last modified: Sunday, 12 January 2025, 8:30 PM
+Previous activity
+Jump to...
+Jump to...
+Next activity
+Contact us
+ 
+Follow us
+    
+You are logged in as Sanchit Wadehra . (Log out)
